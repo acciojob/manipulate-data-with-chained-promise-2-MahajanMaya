@@ -2,7 +2,7 @@
 function getArray() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve([1, 2, 3, 4]);
+            resolve([1, 2, 3, 4,  5]);
         }, 3000);
     });
 }
